@@ -34,8 +34,7 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
+              Recent UCLA Bootcamp Graduate with a passion for creating dynamic &
             </h3>
             <p className='mb-6'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
@@ -46,7 +45,7 @@ const About = () => {
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br />
@@ -55,8 +54,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={35} duration={3} /> : null}
+                
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects <br />
@@ -65,8 +64,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}
+                  
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied <br />

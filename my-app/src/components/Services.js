@@ -15,19 +15,19 @@ const services = [
     link: 'Learn more',
   },
   {
-    name: 'Development',
+    name: 'Frontend Development',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
     link: 'Learn more',
   },
   {
-    name: 'Digital Marketing',
+    name: 'Backend Development',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
     link: 'Learn more',
   },
   {
-    name: 'Product Branding',
+    name: 'Fullstack Development',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
     link: 'Learn more',
