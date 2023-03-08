@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 // services data
-const services = [
+const skills = [
   {
     name: 'UI/UX Design',
     description:
@@ -34,9 +34,9 @@ const services = [
   },
 ];
 
-const Services = () => {
+const Skills = () => {
   return (
-    <section className='section' id='services'>
+    <section className='section' id='skills'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text & image */}
@@ -53,7 +53,7 @@ const Services = () => {
             </h3>
             <button className='btn btn-sm'>See my work</button>
           </motion.div>
-          {/* services */}
+          {/* skills */}
           <motion.div
             variants={fadeIn('left', 0.5)}
             initial='hidden'
@@ -61,11 +61,11 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'
           >
-            {/* service list */}
+            {/* skills list */}
             <div>
-              {services.map((service, index) => {
+              {skills.map((skills, index) => {
                 // destructure service
-                const { name, description, link } = service;
+                const { name, description, link } = skills;
                 return (
                   <div
                     className='border-b border-white/20 h-[146px] mb-[38px] flex'
@@ -101,4 +101,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skills;
