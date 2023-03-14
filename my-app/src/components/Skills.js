@@ -9,7 +9,7 @@ import { fadeIn } from '../variants';
 // services data
 const skills = [
   {
-    name: 'UI/UX Design',
+    name: 'All Around Development',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
     link: 'Learn more',
