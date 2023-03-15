@@ -27,9 +27,8 @@ const Work = () => {
                 Projects.
               </h2>
               <p className='max-w-sm mb-16'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat, hic! Harum quis, cum velit neque esse eos molestias
-                doloremque explicabo!
+                Combination of design and development, I like to create rich and responsive designs.
+                Projects that I have worked on, are from class assignments to personal projects.
               </p>
               <button className='btn btn-sm'>View all projects</button>
             </div>
