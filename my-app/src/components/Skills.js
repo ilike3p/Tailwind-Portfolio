@@ -9,27 +9,27 @@ import { fadeIn } from '../variants';
 // services data
 const skills = [
   {
-    name: 'All Around Development',
+    name: 'Freelance Development',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Professional freelance development is the practice of developing websites or applications for other people for a fee.',
     link: 'Learn more',
   },
   {
     name: 'Frontend Development',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Frontend development is the practice of developing the front end of a website or application',
     link: 'Learn more',
   },
   {
     name: 'Backend Development',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Backend development is the practice of developing the back end of a website or application.',
     link: 'Learn more',
   },
   {
     name: 'Fullstack Development',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Fullstack development is the practice of developing both the front and back ends of a website or application at the same time.',
     link: 'Learn more',
   },
 ];

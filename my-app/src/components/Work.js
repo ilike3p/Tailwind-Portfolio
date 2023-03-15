@@ -27,7 +27,7 @@ const Work = () => {
                 Projects.
               </h2>
               <p className='max-w-sm mb-16'>
-                Combination of design and development, I like to create rich and responsive designs.
+                Combination of design and development, I like to create rich and responsive applications.
                 Projects that I have worked on, are from class assignments to personal projects.
               </p>
               <button className='btn btn-sm'>View all projects</button>
