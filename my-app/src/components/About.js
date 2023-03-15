@@ -37,15 +37,14 @@ const About = () => {
               Recent UCLA Bootcamp Graduate with a passion for creating dynamic &
             </h3>
             <p className='mb-6'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
-              natus omnis inventore quas beatae illo nulla. Officiis magni omnis
-              molestias.
+            I enjoy bringing creative designs to life. As a web developer, 
+            I have experience with OOP, CSS, JavaScript, and HTML. Excited to bring my technical skills and creativity to a challenging and dynamic work environment.
             </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br />

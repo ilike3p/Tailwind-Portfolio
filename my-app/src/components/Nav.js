@@ -6,6 +6,7 @@ import {
   BsBriefcase,
   BsChatSquare,
   BsChatSquareText,
+  
 } from 'react-icons/bs';
 // link
 import { Link } from 'react-scroll';

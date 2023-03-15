@@ -91,6 +91,9 @@ const Banner = () => {
               <a href='https://twitter.com/ilike3p'>
                 <FaTwitter />
               </a>
+              <a href='https://www.instagram.com/ilike3p/'>
+                <FaInstagram />
+              </a>
             </motion.div>
           </div>
           {/* image */}
