@@ -27,10 +27,12 @@ const Work = () => {
                 Projects.
               </h2>
               <p className='max-w-sm mb-16'>
-                Combination of design and development, I like to create rich and responsive applications.
+                Combination of Class Projects and Freelance development, I like to create rich and responsive applications.
                 Projects that I have worked on, are from class assignments to personal projects.
               </p>
+              <a href='https://github.com/ilike3p'>
               <button className='btn btn-sm'>View all projects</button>
+              </a>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -44,11 +46,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>HTML*CSS*JS Project</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Responsive Resume</span>
               </div>
             </div>
           </motion.div>
@@ -71,11 +73,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Travel Manicurist Booking Site</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Buff3D Nails</span>
               </div>
             </div>
             {/* image */}
@@ -90,11 +92,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Travel Meets Entertainment</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Flexx Fly</span>
               </div>
             </div>
           </motion.div>

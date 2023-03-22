@@ -6,28 +6,29 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
-// services data
+// skills data
 const skills = [
   {
-    name: 'Freelance Development',
+    name: 'Freelance Project',
     description:
       'Professional freelance development is the practice of developing websites or applications for other people for a fee.',
     link: 'Learn more',
-  },
+
+   },
   {
-    name: 'Frontend Development',
+    name: 'Frontend Project',
     description:
       'Frontend development is the practice of developing the front end of a website or application',
     link: 'Learn more',
   },
   {
-    name: 'Backend Development',
+    name: 'Backend Project',
     description:
       'Backend development is the practice of developing the back end of a website or application.',
     link: 'Learn more',
   },
   {
-    name: 'Fullstack Development',
+    name: 'Fullstack Project',
     description:
       'Fullstack development is the practice of developing both the front and back ends of a website or application at the same time.',
     link: 'Learn more',
@@ -51,7 +52,9 @@ const Skills = () => {
             <h3 className='h3 max-w-[455px] mb-16'>
              UCLA Bootcamp Graduate with a passion for creating dynamic & userfriendly applications.
             </h3>
+            <a href= 'https://github.com/ilike3p'>
             <button className='btn btn-sm'>See my work</button>
+            </a>
           </motion.div>
           {/* skills */}
           <motion.div
@@ -64,7 +67,7 @@ const Skills = () => {
             {/* skills list */}
             <div>
               {skills.map((skills, index) => {
-                // destructure service
+                // destructure skills
                 const { name, description, link } = skills;
                 return (
                   <div
@@ -80,7 +83,7 @@ const Skills = () => {
                       </p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
-                      <a
+                     <a
                         href='#'
                         className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />

@@ -45,6 +45,8 @@ const Banner = () => {
                   2000,
                   'Gamer',
                   2000,
+                  'Quick Learner',
+                  2000,
                 ]}
                 speed={50}
                 className='text-accent'
@@ -70,8 +72,8 @@ const Banner = () => {
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
               <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
+              <a href='https://www.linkedin.com/in/tray-pearce-04018a20/' className='text-gradient btn-link'> 
+                My Profile
               </a>
             </motion.div>
             {/* socials */}
