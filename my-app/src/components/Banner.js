@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/avatar.svg';
 // icons
-import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -71,11 +71,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='https://www.linkedin.com/in/tray-pearce-04018a20/' className='text-gradient btn-link'> 
-                My Profile
+              <a href='https://ilike3p.github.io/My-Resume/' className='text-gradient btn-link'>
+
+              <button className='btn btn-lg'>My Resume</button>
               </a>
-            </motion.div>
+              </motion.div>
             {/* socials */}
             <motion.div
               variants={fadeIn('up', 0.7)}
@@ -96,6 +96,9 @@ const Banner = () => {
               <a href='https://www.instagram.com/ilike3p/'>
                 <FaInstagram />
               </a>
+              <a href='mailto:traypearce@gmail.com'>
+                <FaEnvelope />
+                </a>
             </motion.div>
           </div>
           {/* image */}

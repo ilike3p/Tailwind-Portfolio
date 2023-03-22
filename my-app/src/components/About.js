@@ -32,12 +32,12 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'
           >
-            <h2 className='h2 text-accent'>About me.</h2>
+            <h2 className='h2 text-accent'>About me</h2>
             <h3 className='h3 mb-4'>
               Recent UCLA Bootcamp Graduate with a passion for creating dynamic &
             </h3>
             <p className='mb-6'>
-            I enjoy bringing creative designs to life. As a web developer, 
+            I enjoy bringing creative designs to life. As a web developer 
             I have experience with OOP, CSS, JavaScript, and HTML. Excited to bring my technical skills and creativity to a challenging and dynamic work environment.
             </p>
             {/* stats */}

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from '@react-email/link';
 // motion
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
-const Contact = () => {
-  return (
+const Email = () => {
+  return ( 
     <section className='py-16 lg:section' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
@@ -47,10 +48,9 @@ const Contact = () => {
             <textarea
               className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
               placeholder='Your message'
-            ></textarea>
-          <a href="mailto:traypearce@gmail.com.com">
+            >
+            </textarea>
             <button className='btn btn-lg'>Send message</button>
-            </a>
           </motion.form>
         </div>
       </div>
@@ -58,4 +58,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Email;
