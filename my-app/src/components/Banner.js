@@ -61,8 +61,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              numquam. Harum deleniti id sapiente.
+              Passionate Entrepenauer with a background in Softare Development and Cyber Security. 
+              I am a Fullstack Developer seeking oppertunities to work with a team of like minded individuals to create innovative solutions to real world problems.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
