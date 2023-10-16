@@ -34,10 +34,10 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About me</h2>
             <h3 className='h3 mb-4'>
-              Recent UCLA Bootcamp Graduate with a passion for creating dynamic &
+              UCLA Web development Graduate with a passion for creating dynamic & User friendly applications.
             </h3>
             <p className='mb-6'>
-            I enjoy bringing creative designs to life. As a web developer 
+            I thrive in bringing creative and complex designs to life. As a web developer 
             I have experience with OOP, CSS, JavaScript, and HTML. Excited to bring my technical skills and creativity to a challenging and dynamic work environment.
             </p>
             {/* stats */}
