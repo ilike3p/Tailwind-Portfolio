@@ -41,11 +41,11 @@ const Banner = () => {
                 sequence={[
                   'Fullstack Developer',
                   2000,
-                  'Designer',
+                  'Graphic Designer',
                   2000,
                   'Content Creator',
                   2000,
-                  'Quick Learner',
+                  'Digital Marketer',
                   2000,
                 ]}
                 speed={50}
