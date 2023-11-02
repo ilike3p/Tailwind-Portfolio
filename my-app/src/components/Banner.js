@@ -43,7 +43,7 @@ const Banner = () => {
                   2000,
                   'Designer',
                   2000,
-                  'Gamer',
+                  'Content Creator',
                   2000,
                   'Quick Learner',
                   2000,
