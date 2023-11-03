@@ -21,7 +21,7 @@ const Banner = () => {
           {/* text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1
-              variants={fadeIn('up', 0.3)}
+              variants={fadeIn('up', 0.8)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
@@ -39,14 +39,14 @@ const Banner = () => {
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'Fullstack Developer',
-                  2000,
-                  'Graphic Designer',
-                  2000,
+                  'Web Developer',
+                  3000,
+                  'Designer',
+                  3000,
                   'Content Creator',
-                  2000,
+                  3000,
                   'Digital Marketer',
-                  2000,
+                  3000,
                 ]}
                 speed={50}
                 className='text-accent'
@@ -61,8 +61,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              Passionate Entrepenauer with a background in Softare Development and Cyber Security. 
-              I am a Fullstack Developer seeking oppertunities to work with a team of like minded individuals to create innovative solutions to real world problems.
+              Passionate Web Developer with a background in Business Development and Cyber Security. 
+              I'm currently seeking oppertunities to work with a team of like minded individuals to create innovative solutions to real world problems.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
